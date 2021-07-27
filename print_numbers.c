@@ -27,7 +27,7 @@ int print_i(va_list i)
 		for (j = 0; j < 10; j++)
 			a[j] *= -1;
 	}
-	for (j = 0, sum 0; j < 10; j++)
+	for (j = 0, sum = 0; j < 10; j++)
 	{
 		sum += a[j];
 		if (sum != 0 || j == 9)
