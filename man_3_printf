@@ -1,0 +1,37 @@
+.\" Manpage for _printf
+.TH man 8 "26 July 2021" "1.0" "_printf man page"
+.SH NAME
+_printf - format and write anything to  stdout
+.SH SYNOPSIS
+#include "holberton.h"
+.br
+#include <stdarg.h>
+.br
+#include <stdlib.h>
+.br
+.br
+int _printf(const char *format, ...)
+
+.SH DESCRIPTION
+The function _printf() writes output of any type of argument to stdout. It can accept chars, strings, numbers and more.
+
+.SS Return value
+.br
+when successful, the function returns a number of characters
+printed (excluding the null byte)
+
+otherwise a negative value is returned
+
+.SS The format string
+It is a character string, composed of zero or more directives, ordinary characters which are copied and unchanged to the stdout, each conversion specifier is introduced with %
+The argument must correspond properly with the conversion specifier. By default, the arguments are used in the order given.
+
+.br
+.SH BUGS
+No known bugs
+.SS colphon
+.br
+This page was created as an ALX-Holberton collaboration.
+
+.SH AUTHORS
+.Billie K Mushongwi & Derrick Ampire
