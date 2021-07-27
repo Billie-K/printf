@@ -60,7 +60,7 @@ int _printf(const char *format, ...)
 			i += 2;
 			continue;
 		}
-		if (!format[i + 1})
+		if (!format[i + 1])
 			return (-1);
 		_putchar(format[i]);
 		count++;
