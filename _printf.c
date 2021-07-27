@@ -1,13 +1,10 @@
-#include<stdlib.h>
+#include <stdlib.h>
 #include "holberton.h"
 
 /**
-* _printf - prints a string of args to stdout
-* @format: a list  of the arguments
-* Returns a string of chars
-*/
-
+ * print_f - prints everything
+ * @format: list of arguments
+ *
+ * Return: number of characters passed
+ */
 int _printf(const char *format, ...)
-{
-
-}
