@@ -35,3 +35,21 @@ static int (*check_for_specs(const char *format))(va_list)
  * Return: number of characters passed
  */
 int _printf(const char *format, ...)
+{
+  unsigned int i = 0, count = 0;
+  va_list valist;
+  int (*f)(va_list);
+
+  if (format == NULL)
+    return (-1);
+
+  va_start(valist, format);
+  while (format[i])
+    {
+      for (; format[i] != '%' && format[i]; i++)
+	{
+	  _putchar(format[i]);
+	  count++
+	}
+    }
+}
