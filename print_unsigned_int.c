@@ -23,10 +23,10 @@ int print_b(va_list b)
 	for (i = 0, sum = 0, count = 0; i < 32; i++)
 	{
 		sum += a[i];
-		if (sum || i == 32)
+		if (sum || i == 31)
 		{
 			_putchar('0' + a[i]);
-			count;
+			count++;
 		}
 	}
 	return (count);
