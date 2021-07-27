@@ -56,7 +56,7 @@ int _printf(const char *format, ...)
 		f = check_for_specs(&format[i + 1]);
 		if (f != NULL)
 		{
-			count =+ f(valist);
+			count += f(valist);
 			i += 2;
 			continue;
 		}
