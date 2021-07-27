@@ -30,7 +30,7 @@ static int (*check_for_specs(const char *format))(va_list)
 }
 
 /**
- * print_f - prints everything
+ * _print_f - prints everything
  * @format: list of arguments
  *
  * Return: number of characters passed
