@@ -38,7 +38,7 @@ int print_b(va_list b)
  *
  * Return: number of digits to be printed
  */
-int print_u(va_list u);
+int print_u(va_list u)
 {
 	unsigned int a[10];
 	unsigned int i, m, n, sum;
