@@ -47,7 +47,7 @@ int print_u(va_list u)
 	n = va_arg(u, unsigned int);
 	m = 1000000000;
 	a[0] = n / m;
-	for (i = 1; i < 10, i++)
+	for (i = 1; i < 10; i++)
 	{
 		m /= 10;
 		a[i] = (n / m) % 10;
